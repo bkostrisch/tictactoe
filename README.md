@@ -4,7 +4,7 @@
 Tic tac toe game learned in ProgramadorBR course.
 
 ## 📸 See how it works
-![Show](./assets/tictactoe.gif)
+![Show](assets/titactoe.gif)
 
 ## 🚀 Tecnologies
 
