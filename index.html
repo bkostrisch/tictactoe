@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    
+    <div class="title">
+        <h1>Tic Tac Toe</h1>
+    </div>
+
+    <div class="choose">
+        <h2>Select player 1 :</h2>
+        <form oninput="setPlayer()">
+            <div>
+                <input id="x" type="radio" value="1" name="Player-Start" checked>
+                <label for="x" class="x_choice"></label>
+            </div>
+            <div>        
+                <input id="o" type="radio" value="0" name="Player-Start">
+                <label for="0" class="o_choice"></label>
+            </div>    
+        </form>
+    </div>
+
+    <div class="stage">
+        <div>
+
+            <div id="0" class="square"></div>
+            <div id="1" class="square"></div>
+            <div id="2" class="square"></div>
+
+        </div>
+        <div>
+
+            <div id="3" class="square"></div>
+            <div id="4" class="square"></div>
+            <div id="5" class="square"></div>
+
+        </div>
+        <div>
+            
+            <div id="6" class="square"></div>
+            <div id="7" class="square"></div>
+            <div id="8" class="square"></div>
+        
+        </div>
+    </div>
+    <div class="show_result">
+        <div id="result">            
+        </div>
+    </div>
+    <script src="./scripts/game.js"></script>
+    <script src="./scripts/interface.js"></script>
+</body>
+</html>
